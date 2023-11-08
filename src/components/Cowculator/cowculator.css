@@ -1,0 +1,18 @@
+#back-arrow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#title{
+    color: var(--dark-purple);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#tagline{
+    color: var(--dark-purple);
+    font-size: 40px;
+    font-weight: 400;
+}

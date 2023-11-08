@@ -1,16 +1,17 @@
 import './App.css';
-import Main from './components/Main/main';
-import About from './components/About/about';
-import Projects from './components/Projects/projects';
-import Contact from './components/Contact/contact';
+import Home from './components/Home';
+import Research from './components/Research/research';
+import Cowculator from './components/Cowculator/cowculator';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Main />
-      <About />
-      <Projects />
-      <Contact />
+      <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/undergrad-research' element={<Research/>} />
+          <Route path='/cowculator' element={<Cowculator/>} />
+        </Routes>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 #welcome{
     color: var(--dark-purple);
     font-size: 50px;
-    font-weight: 400;
 }
 
 #profilePic{
@@ -10,7 +9,7 @@
 }
 
 #arrow{
-    width: 100px;
+    width: 90px;
     transition: 0.3s ease-in;
 }
 

@@ -37,8 +37,16 @@
   font-size: 40px;
   text-align: center;
   width: fit-content;
+  transition: 0.2s ease-in;
 }
 
 button:hover{
   cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.2s ease-out;
+}
+
+.icon{
+  font-size: 50px;
+  color: var(--dark-purple);
 }

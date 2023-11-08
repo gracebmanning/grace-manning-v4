@@ -19,16 +19,31 @@ p{
 
 h1{
 	margin: 0px;
+	font-weight: 400;
+}
+
+h2{
+	margin: 0px;
+	font-weight: 400;
+}
+
+h3{
+	margin: 0px;
+	font-weight: 400;
 }
 
 ul{
 	margin: 0px;
+	list-style-type: none;
 }
 
 a{
 	transition: 0.2s ease-in;
+	text-decoration: none;
+	color: var(--dark-purple)
 }
 
 a:hover{
 	transition: 0.2s ease-out;
+	color: var(--dark-teal);
 }

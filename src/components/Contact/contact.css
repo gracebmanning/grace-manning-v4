@@ -1,0 +1,15 @@
+.contact-header{
+    color: var(--dark-purple);
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.contact-buttons .button{
+    margin-right: 20px;
+}
+
+.contact-text{
+    color: var(--dark-teal);
+    font-size: 40px;
+    font-weight: 400;
+}
