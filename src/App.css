@@ -1,0 +1,13 @@
+.section-solid{
+  height: 100vh;
+  background-color: var(--light-purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-gradient{
+  height: 100vh;
+  background: var(--gradient-background);
+}

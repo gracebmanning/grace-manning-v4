@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+:root{
+	--dark-purple: #720C61;
+	--light-purple: #ECE0EA;
+  --dark-teal: #1C6C85;
+  --black: #1B1C1E;
+	--gradient-background: radial-gradient(128.47% 70.71% at 50% 50%, #5F2323 0%, #720C61 27.78%, #E0D5D5 81.42%, #FFF 100%);
+}
+
+body{
+	margin: 0px;
+  font-family: 'Crimson Pro', serif;
+}
+
+p{
+	margin: 0px;	
+}
+
+h1{
+  margin: 0px;
+}
+
+ul{
+	margin: 0px;
+}
+
+a{
+	transition: 0.2s ease-in;
+}
+
+a:hover{
+	transition: 0.2s ease-out;
+}
