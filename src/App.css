@@ -10,4 +10,35 @@
 .section-gradient{
   height: 100vh;
   background: var(--gradient-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle{
+  background: #ECE0EA;
+  width: 60vw;
+  height: 50vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.button{
+  background-color: var(--dark-teal);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--light-purple);
+  font-family: 'Crimson Pro', serif;
+  font-size: 40px;
+  text-align: center;
+  width: fit-content;
+}
+
+button:hover{
+  cursor: pointer;
 }
