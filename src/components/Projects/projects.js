@@ -1,5 +1,6 @@
 import './projects.css';
 import arrow from '../../images/arrow-down.svg';
+import arrowLight from '../../images/arrow-down-light.svg';
 import { clickScroll } from '../clickScroll';
 import { projectItems, personalProjectItems } from './projectsList';
 
@@ -28,14 +29,14 @@ export default function Projects() {
             </div>
             <img id="arrow" src={arrow} alt="arrow pointing down" onClick={() => clickScroll('projects2')} />
         </div>
-        <div className="section-solid" id="projects2">
-            <div className="container">
+        <div className="section-gradient" id="projects2">
+            <div className="rectangle">
                 <h2 className="h2">Personal Projects</h2>
                 <div className="projectsContainer">
                     {personalProjectItems}
                 </div>
             </div>
-            <img id="arrow" src={arrow} alt="arrow pointing down" onClick={() => clickScroll('contact')} />
+            <img id="arrow" src={arrowLight} alt="arrow pointing down" onClick={() => clickScroll('contact')} />
         </div>
         </>
     );

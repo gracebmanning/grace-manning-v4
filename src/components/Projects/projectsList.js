@@ -1,4 +1,5 @@
-import { HiOutlineDevicePhoneMobile, HiOutlineDocumentMagnifyingGlass, HiOutlineMap, HiOutlineFilm } from 'react-icons/hi2';
+import { HiOutlineDevicePhoneMobile, HiOutlineDocumentMagnifyingGlass, HiOutlineGlobeAlt,
+     HiOutlineMap, HiOutlineFilm, HiOutlineRocketLaunch } from 'react-icons/hi2';
 
 const projects = [
     {
@@ -13,6 +14,12 @@ const projects = [
         icon: <HiOutlineDevicePhoneMobile className="icon"/>,
         href: '/cowculator'
     },
+    {
+        title: 'design portfolio',
+        tagline: 'coming soon!',
+        icon: <HiOutlineGlobeAlt className="icon"/>,
+        href: ''
+    }
 ];
 export const projectItems = projects.map((project) => 
     <a href={project.href} key={project.title}>
@@ -40,6 +47,13 @@ const personalProjects = [
         icon: <HiOutlineFilm className="icon"/>,
         href: '/photography',
         target: '_self'
+    },
+    {
+        title: 'grace\'s portal',
+        tagline: 'my personal website',
+        icon: <HiOutlineRocketLaunch className="icon"/>,
+        href: '',
+        target: '_blank'
     }
 ];
 export const personalProjectItems = personalProjects.map((project) => 
