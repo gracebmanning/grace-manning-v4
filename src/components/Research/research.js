@@ -1,14 +1,8 @@
 import './research.css';
 import paper from '../../documents/research-paper.pdf';
 import poster from '../../images/research.png';
+import { clickScroll } from '../clickScroll';
 import { HiArrowLeft, HiOutlineDocumentMagnifyingGlass, HiOutlineComputerDesktop, HiOutlinePresentationChartBar, HiOutlineMagnifyingGlass } from 'react-icons/hi2';
-
-function clickScroll(){
-    const element = document.getElementById('poster');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-}
 
 export default function Research() {
     return (
@@ -29,7 +23,7 @@ export default function Research() {
                         <HiOutlineComputerDesktop className="icon"/>
                         GitHub Repository
                     </a>
-                    <div className="icon-link" onClick={clickScroll}>
+                    <div className="icon-link" onClick={() => clickScroll('poster')}>
                         <HiOutlinePresentationChartBar className="icon"/>
                         UROP Symposium Poster
                     </div>

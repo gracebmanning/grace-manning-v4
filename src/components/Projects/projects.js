@@ -1,13 +1,7 @@
 import './projects.css';
 import arrow from '../../images/arrow-down.svg';
+import { clickScroll } from '../clickScroll';
 import { HiOutlineDevicePhoneMobile, HiOutlineDocumentMagnifyingGlass } from 'react-icons/hi2';
-
-function clickScroll(){
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-}
 
 const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Flutter/Dart', 'Android Studio', 'Xcode', 'Figma', 'Git/GitHub', 'AWS', 'MongoDB', 'MySQL', 'Python', 'C++', 'C', 'Java', 'Racket'];
 const skillItems = skills.map((skill) =>
@@ -42,6 +36,7 @@ const projectItems = projects.map((project) =>
 
 export default function Projects() {
     return (
+        <>
         <div className="section-solid" id="projects">
             <div className="container">
                 <h2 className="h2">Education</h2>
@@ -57,7 +52,11 @@ export default function Projects() {
                     {projectItems}
                 </div>
             </div>
-            <img id="arrow" src={arrow} alt="arrow pointing down" onClick={clickScroll} />
+            <img id="arrow" src={arrow} alt="arrow pointing down" onClick={() => clickScroll('projects2')} />
         </div>
+        <div className="section-solid" id="projects2">
+            <img id="arrow" src={arrow} alt="arrow pointing down" onClick={() => clickScroll('contact')} />
+        </div>
+        </>
     );
 }

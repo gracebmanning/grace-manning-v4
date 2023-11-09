@@ -1,11 +1,5 @@
 import './about.css';
-
-function clickScroll(){
-    const element = document.getElementById('projects');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-}
+import { clickScroll } from '../clickScroll';
 
 export default function About() {
     return (
@@ -14,7 +8,7 @@ export default function About() {
                 <p id="about-text">
                     I'm Grace,<br/>a web developer, UI/UX designer, software engineer, marketing enthusiast, and creator.
                 </p>
-                <button className="button" onClick={clickScroll}>see more!</button>
+                <button className="button" onClick={() => clickScroll('projects')}>see more!</button>
             </div>
         </div>
     );
