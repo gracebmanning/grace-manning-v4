@@ -4,3 +4,11 @@
     font-size: 45px;
     font-weight: 400;
 }
+
+#about-subtext{
+    width: 100%;
+    color: var(--dark-purple);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+}

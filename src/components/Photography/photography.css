@@ -1,0 +1,50 @@
+#back-arrow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#photography-title{
+    color: var(--dark-purple);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#photography-tagline{
+    color: var(--dark-purple);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.photoTile{
+    width: 100%;
+    justify-self: center;
+    align-self: center;    
+}
+
+.photoTile p{
+    color: var(--dark-purple);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.photo{
+    width: 100%;
+    transform: scale(1.0);
+    transition: 0.2s ease-out;
+}
+
+.photo:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s ease-in;
+}
+
+.photoGallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}

@@ -48,5 +48,6 @@ button:hover{
 
 .icon{
   font-size: 50px;
+  margin: 2px;
   color: var(--dark-purple);
 }

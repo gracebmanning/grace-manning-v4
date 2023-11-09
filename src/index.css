@@ -8,6 +8,30 @@
 	--gradient-background: radial-gradient(128.47% 70.71% at 50% 50%, #5F2323 0%, #720C61 27.78%, #E0D5D5 81.42%, #FFF 100%);
 }
 
+/* width */
+::-webkit-scrollbar{
+    width: 1em;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: var(--light-purple);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: var(--dark-purple);
+    border-radius: 20px;
+    border: 3px solid var(--dark-purple);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #952E84;
+    border: 3px solid #952E84;
+	cursor: pointer;
+}
+
 body{
 	margin: 0px;
   	font-family: 'Crimson Pro', serif;
