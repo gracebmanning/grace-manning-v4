@@ -1,5 +1,5 @@
 .section-solid{
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--light-purple);
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .section-gradient{
-  height: 100vh;
+  min-height: 100vh;
   background: var(--gradient-background);
   display: flex;
   flex-direction: column;
