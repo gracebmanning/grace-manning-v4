@@ -57,3 +57,18 @@
 #research-poster{
     width: 70%;
 }
+
+@media screen and (max-width: 768px) {
+    #research-title{
+        margin-top: 40px;
+    }
+    .icon-link{
+        width: 45%;
+    }
+    .icon-links{
+        flex-wrap: wrap;
+    }
+    #research-poster{
+        width: 95%;
+    }
+}

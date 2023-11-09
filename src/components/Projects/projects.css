@@ -1,4 +1,5 @@
 .container{
+    margin-top: 10px;
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -38,23 +39,20 @@
 }
 
 .projectsContainer{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .projectItem{
-    width: 100%;
     padding: 5px 10px 5px 10px;
-    margin: 5px;
+    margin: 5px 0px 5px 0px;
     color: var(--dark-purple);
-    font-size: 35px;
     border: 2px solid var(--dark-purple);
     border-radius: 20px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
-
     transition: 0.2s ease-in;
 }
 
@@ -63,6 +61,36 @@
     transition: 0.2s ease-in;
 }
 
+.projectItem h3{
+    font-size: 35px;
+}
+
 .projectItem p{
     font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .h2{
+        font-size: 40px;
+    }
+
+    .skillItem{
+        font-size: 25px;
+    }
+
+    .projectItem{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projectItem h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .projectItem p{
+        font-size: 20px;
+        text-align: center;
+    }    
 }

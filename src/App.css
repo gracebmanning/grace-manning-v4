@@ -19,7 +19,7 @@
 .rectangle{
   background: #ECE0EA;
   width: 60vw;
-  height: 50vh;
+  min-height: 50vh;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -38,6 +38,7 @@
   text-align: center;
   width: fit-content;
   transition: 0.2s ease-in;
+  margin: 5px 5px 5px 0px;
 }
 
 button:hover{
@@ -50,4 +51,21 @@ button:hover{
   font-size: 50px;
   margin: 2px;
   color: var(--dark-purple);
+}
+
+@media screen and (max-width: 768px) {
+  .rectangle{
+    width: 75vw;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icon{
+    font-size: 40px;
+  }
+
+  .button{
+    font-size: 30px;
+  }
 }

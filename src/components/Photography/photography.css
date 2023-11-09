@@ -48,3 +48,12 @@
     column-gap: 15px;
     row-gap: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    #photography-title{
+        margin-top: 40px;
+    }
+    .photoGallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}

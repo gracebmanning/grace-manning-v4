@@ -33,3 +33,17 @@
     margin-right: 15px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    #cowculator-title{
+        font-size: 45px;
+    }
+
+    #cowculator-tagline{
+        font-size: 35px;
+    }
+
+    .previewImage{
+        width: 30%;
+    }
+}

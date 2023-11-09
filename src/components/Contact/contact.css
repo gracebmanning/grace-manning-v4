@@ -13,3 +13,12 @@
     font-size: 40px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-header{
+        font-size: 40px;
+    }
+    .contact-text{
+        font-size: 25px;
+    }
+}

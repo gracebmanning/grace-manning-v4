@@ -48,7 +48,7 @@ export default function Research() {
         </div>
         <div className="section-solid" id="poster">
             <div className="container">
-                <h3 className="research-h3">Research Paper - presented at UROP Symposium</h3>
+                <h3 className="research-h3">Research Poster - presented at UROP Symposium</h3>
                 <br/>
                 <img id="research-poster" src={poster} alt="poster summarizing the research in a green, brown, and cream color palette. The sections of the paper are grouped into organic blob shapes." />
             </div>

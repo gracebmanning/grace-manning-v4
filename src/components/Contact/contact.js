@@ -6,9 +6,9 @@ export default function Contact() {
     return (
         <div className="section-solid" id="contact">
             <div className="rectangle">
-                <div>
+                <div className="contact-container">
                     <h2 className="contact-header">want to know more?</h2>
-                    <div className="contact-buttons">
+                    <div>
                         <a href={resume} target="_blank" rel="noreferrer">
                             <button className="button">resume</button>
                         </a>
