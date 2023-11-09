@@ -12,8 +12,12 @@ export default function Research() {
                 <HiArrowLeft className="icon" />
             </a>
             <div className="container">
-                <h1 id="title">Undergraduate Research</h1>
-                <h2 id="tagline">Quantitative Analysis of Fast Fashion and Slow Fashion Website Design Elements Using a Web Crawler</h2>
+                <h1 id="research-title">Undergraduate Research</h1>
+                <h2 id="research-tagline">Quantitative Analysis of Fast Fashion and Slow Fashion Website Design Elements Using a Web Crawler</h2>
+                <div className="skillsContainer">
+                    <div className="skillItem">TypeScript</div>
+                    <div className="skillItem">AWS</div>
+                </div>
                 <div className="icon-links">
                     <a className="icon-link" href={paper} target="_blank" rel="noreferrer">
                         <HiOutlineDocumentMagnifyingGlass className="icon"/>

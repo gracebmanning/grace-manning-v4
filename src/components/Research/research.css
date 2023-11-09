@@ -5,13 +5,13 @@
     margin: 10px;
 }
 
-#title{
+#research-title{
     color: var(--dark-purple);
     font-size: 50px;
     font-weight: 400;
 }
 
-#tagline{
+#research-tagline{
     color: var(--dark-purple);
     font-size: 40px;
     font-weight: 400;

@@ -3,7 +3,7 @@ import arrow from '../../images/arrow-down.svg';
 import { clickScroll } from '../clickScroll';
 import { HiOutlineDevicePhoneMobile, HiOutlineDocumentMagnifyingGlass } from 'react-icons/hi2';
 
-const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Flutter/Dart', 'Android Studio', 'Xcode', 'Figma', 'Git/GitHub', 'AWS', 'MongoDB', 'MySQL', 'Python', 'C++', 'C', 'Java', 'Racket'];
+const skills = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Node.js', 'Flutter/Dart', 'Android Studio', 'Xcode', 'Figma', 'Git/GitHub', 'AWS', 'MongoDB', 'MySQL', 'Python', 'C++', 'C', 'Java', 'Racket'];
 const skillItems = skills.map((skill) =>
   <div className="skillItem" key={skill}>{skill}</div>
 );
