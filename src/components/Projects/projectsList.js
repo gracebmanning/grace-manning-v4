@@ -6,23 +6,26 @@ const projects = [
         title: 'Undergraduate Research',
         tagline: 'quantitative analysis of fast & slow fashion website design elements using a web crawler',
         icon: <HiOutlineDocumentMagnifyingGlass className="icon"/>,
-        href: '/undergrad-research'
+        href: '/undergrad-research',
+        target: '_self'
     },
     {
         title: 'Cowculator',
         tagline: 'a mobile application available on Google Play',
         icon: <HiOutlineDevicePhoneMobile className="icon"/>,
-        href: '/cowculator'
+        href: '/cowculator',
+        target: '_self'
     },
     {
         title: 'design portfolio',
-        tagline: 'coming soon!',
+        tagline: 'showing my design process, exploring new ideas',
         icon: <HiOutlineGlobeAlt className="icon"/>,
-        href: ''
+        href: 'https://www.behance.net/gracebmanning',
+        target: '_blank'
     }
 ];
 export const projectItems = projects.map((project) => 
-    <a href={project.href} key={project.title}>
+    <a href={project.href} target={project.target} key={project.title}>
         <div className="projectItem">
             {project.icon}
             <div>
