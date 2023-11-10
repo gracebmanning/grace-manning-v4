@@ -20,8 +20,8 @@ const projects = [
         title: 'design portfolio',
         tagline: 'showing my design process, exploring new ideas',
         icon: <HiOutlineGlobeAlt className="icon"/>,
-        href: 'https://www.behance.net/gracebmanning',
-        target: '_blank'
+        href: '/design',
+        target: '_self'
     }
 ];
 export const projectItems = projects.map((project) => 

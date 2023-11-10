@@ -1,0 +1,51 @@
+#back-arrow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#design-title{
+    color: var(--dark-purple);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#design-tagline{
+    color: var(--dark-purple);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.behanceProjects{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.behanceProject{
+    border: none;
+    width: 404px;
+    height: 316px;
+}
+
+@media screen and (max-width: 768px) {
+    #design-title{
+        font-size: 45px;
+    }
+
+    #design-tagline{
+        font-size: 35px;
+    }
+
+    .behanceProject{
+        width: 310px;
+        height: 243px;
+    }
+
+    .behanceProjects{
+        grid-template-columns: 1fr;
+    }
+}
