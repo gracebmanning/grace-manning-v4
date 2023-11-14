@@ -11,7 +11,7 @@ export default function Cowculator() {
                 <HiArrowLeft className="icon" />
             </a>
             <div className="container">
-                <h1 id="cowculator-title">Cowculator</h1>
+                <h1 className="cowculator-title">Cowculator</h1>
                 <h2 id="cowculator-tagline">
                     a cow-themed cowculator available on <a style={{textDecoration: 'underline'}} href="https://play.google.com/store/apps/details?id=com.gracemanning.cowculator" target="_blank" rel="noreferrer">Google Play</a>
                 </h2>
@@ -28,6 +28,11 @@ export default function Cowculator() {
                     <img className="previewImage" src={cow_settings} alt="calculator with cow spot shaped buttons" />
                     <img className="previewImage" src={cow_history} alt="calculator with cow spot shaped buttons" />
                 </div>
+                <p>
+                    <a href="/cowculator/support" style={{textDecoration:'underline'}}>Support</a>
+                    <br/>
+                    <a href="/cowculator/privacy" style={{textDecoration:'underline'}}>Privacy Policy</a>
+                </p>
             </div>
         </div>
     );

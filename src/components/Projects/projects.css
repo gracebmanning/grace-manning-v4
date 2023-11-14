@@ -1,12 +1,3 @@
-.container{
-    margin-top: 10px;
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-}
-
 .h2{
     color: var(--dark-teal);
     font-size: 50px;

@@ -39,16 +39,20 @@ body{
 
 p{
 	margin: 0px;	
+	font-size: 25px;
+	color: var(--dark-purple);
 }
 
 h1{
 	margin: 0px;
 	font-weight: 400;
+	color: var(--dark-purple);
 }
 
 h2{
 	margin: 0px;
 	font-weight: 400;
+	color: var(--dark-purple);
 }
 
 h3{

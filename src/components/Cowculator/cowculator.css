@@ -5,7 +5,7 @@
     margin: 10px;
 }
 
-#cowculator-title{
+.cowculator-title{
     color: var(--dark-purple);
     font-size: 50px;
     font-weight: 400;
@@ -32,6 +32,15 @@
     width: 20%;
     margin-right: 15px;
     border-radius: 10px;
+}
+
+.privacy-policy h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.privacy-policy h3{
+    font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
