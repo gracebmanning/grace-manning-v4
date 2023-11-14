@@ -55,7 +55,7 @@ const personalProjects = [
         title: 'grace\'s portal',
         tagline: 'my personal website',
         icon: <HiOutlineRocketLaunch className="icon"/>,
-        href: '',
+        href: 'https://graces-portal.net',
         target: '_blank'
     }
 ];
