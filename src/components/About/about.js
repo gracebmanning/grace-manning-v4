@@ -6,7 +6,7 @@ export default function About() {
         <div className="section-gradient" id="about">
             <div className="rectangle">
                 <p id="about-text">
-                    I'm Grace,<br/>a web developer, software engineer, UI/UX designer, marketing enthusiast, and creator.
+                    I'm Grace,<br/>a web developer, software engineer, visual designer, and creator.
                 </p>
                 <p id="about-subtext">
                     I am passionate about front-end and full-stack web development, human-centered design, and creating technology that impacts people positively.
