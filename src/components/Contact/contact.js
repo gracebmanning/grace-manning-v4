@@ -4,7 +4,7 @@ import { HiCursorArrowRays } from 'react-icons/hi2';
 
 export default function Contact() {
     return (
-        <div className="section-solid" id="contact">
+        <div className="section-gradient" id="contact">
             <div className="rectangle">
                 <div className="contact-container">
                     <h2 className="contact-header">want to know more?</h2>

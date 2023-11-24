@@ -1,5 +1,7 @@
 import { HiOutlineDevicePhoneMobile, HiOutlineDocumentMagnifyingGlass, HiOutlineGlobeAlt,
      HiOutlineMap, HiOutlineFilm, HiOutlineRocketLaunch } from 'react-icons/hi2';
+import iwc from '../../images/indiewebcamp.svg';
+import yesterweb from '../../images/yesterweb.png';
 
 const projects = [
     {
@@ -66,6 +68,35 @@ export const personalProjectItems = personalProjects.map((project) =>
             <div>
                 <h3>{project.title}</h3>
                 <p>{project.tagline}</p>
+            </div>
+        </div>
+    </a>
+);
+
+const otherThings = [
+    {
+        title: 'IndieWeb',
+        tagline: 'the IndieWeb is a people-focused alternative to the "corporate web"',
+        icon: <img src={iwc} alt="logo for Indie Web Camp. red i, orange w, yellow c." />,
+        href: 'https://indieweb.org/',
+        target: '_blank'
+    },
+    {
+        title: 'Yesterweb',
+        tagline: 'reclaim the net',
+        icon: <img src={yesterweb} style={{height: '50px'}} alt="purple button that reads Yesterweb: reclaim the net" />,
+        href: 'https://yesterweb.org/',
+        target: '_blank'
+    }
+];
+
+export const thingsICareAbout = otherThings.map((thing) => 
+    <a href={thing.href} target={thing.target} key={thing.title}>
+        <div className="projectItem">
+            {thing.icon}
+            <div>
+                <h3>{thing.title}</h3>
+                <p><i>{thing.tagline}</i></p>
             </div>
         </div>
     </a>
