@@ -1,5 +1,5 @@
 import './about.css';
-import { clickScroll } from '../clickScroll';
+import { clickScroll } from '../utilityFunctions';
 
 export default function About() {
     return (

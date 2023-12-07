@@ -4,3 +4,7 @@ export function clickScroll(id){
       element.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+export function goBackToSection(navigate, id){
+  navigate("/", { state: { targetId: id } });
+}

@@ -3,13 +3,14 @@ import cow_main from '../../images/cowculator/Pixel6_blue_main.png';
 import cow_settings from '../../images/cowculator/Pixel6_blue_settings.png';
 import cow_history from '../../images/cowculator/Pixel6_blue_history.png';
 import { HiArrowLeft } from 'react-icons/hi2';
+import { useNavigate } from 'react-router-dom';
+import { goBackToSection } from '../utilityFunctions';
 
 export default function Cowculator() {
+    const navigate = useNavigate();
     return (
         <div className="section-solid">
-            <a href="/" id="back-arrow">
-                <HiArrowLeft className="icon" />
-            </a>
+            <HiArrowLeft className="icon back-arrow" onClick={() => goBackToSection(navigate, "projects")} />
             <div className="container">
                 <h1 className="cowculator-title">Cowculator</h1>
                 <h2 id="cowculator-tagline">

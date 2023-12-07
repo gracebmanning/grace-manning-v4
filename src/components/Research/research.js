@@ -1,16 +1,17 @@
 import './research.css';
 import paper from '../../documents/research-paper.pdf';
 import poster from '../../images/research.png';
-import { clickScroll } from '../clickScroll';
+import { clickScroll } from '../utilityFunctions';
 import { HiArrowLeft, HiOutlineDocumentMagnifyingGlass, HiOutlineComputerDesktop, HiOutlinePresentationChartBar, HiOutlineMagnifyingGlass } from 'react-icons/hi2';
+import { useNavigate } from 'react-router-dom';
+import { goBackToSection } from '../utilityFunctions';
 
 export default function Research() {
+    const navigate = useNavigate();
     return (
         <>
         <div className="section-solid">
-            <a href="/" id="back-arrow">
-                <HiArrowLeft className="icon" />
-            </a>
+            <HiArrowLeft className="icon back-arrow" onClick={() => goBackToSection(navigate, "projects")} />
             <div className="container">
                 <h1 id="research-title">Undergraduate Research</h1>
                 <h2 id="research-tagline">Quantitative Analysis of Fast Fashion and Slow Fashion Website Design Elements Using a Web Crawler</h2>

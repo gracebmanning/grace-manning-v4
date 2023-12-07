@@ -35,6 +35,7 @@
 body{
 	margin: 0px;
   	font-family: 'Crimson Pro', serif;
+	scroll-behavior: smooth;
 }
 
 p{

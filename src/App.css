@@ -63,6 +63,17 @@ button:hover{
   color: var(--dark-purple);
 }
 
+.back-arrow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
+.back-arrow:hover{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .rectangle{
     width: 75vw;

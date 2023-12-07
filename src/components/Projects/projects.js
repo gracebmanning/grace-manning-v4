@@ -1,6 +1,6 @@
 import './projects.css';
 import arrow from '../../images/arrow-down.svg';
-import { clickScroll } from '../clickScroll';
+import { clickScroll } from '../utilityFunctions';
 import { projectItems } from './projectsList';
 
 const skills = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Node.js', 'Flutter/Dart', 'Android Studio', 'Xcode', 'Figma', 'Git/GitHub', 'AWS', 'MongoDB', 'MySQL', 'Python', 'C++', 'C', 'Java', 'Racket'];

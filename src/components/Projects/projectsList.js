@@ -24,6 +24,13 @@ const projects = [
         icon: <HiOutlineGlobeAlt className="icon"/>,
         href: '/design',
         target: '_self'
+    },
+    {
+        title: 'grace\'s portal',
+        tagline: 'my personal website',
+        icon: <HiOutlineRocketLaunch className="icon"/>,
+        href: 'https://graces-portal.net',
+        target: '_blank'
     }
 ];
 export const projectItems = projects.map((project) => 
@@ -38,6 +45,11 @@ export const projectItems = projects.map((project) =>
     </a>
 );
 
+/*
+*
+* NOT IN USE
+*
+*/
 const personalProjects = [
     {
         title: "'Chure Thing",
