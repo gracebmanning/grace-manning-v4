@@ -8,16 +8,18 @@ import Photography from './components/Photography/photography';
 import Design from './components/Design/design';
 import PageDoesNotExist from './components/404';
 import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
+      <Header/>
       <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/undergrad-research' element={<Research/>} />
           <Route path='/cowculator' element={<Cowculator/>} />
           <Route path='cowculator/privacy' element={<PrivacyPolicy/>} />
-            <Route path='cowculator/support' element={<Support/>} />
+          <Route path='cowculator/support' element={<Support/>} />
           <Route path='/photography' element={<Photography/>} />
           <Route path='/design' element={<Design/>} />
           <Route path='*' element={<PageDoesNotExist/>} />
